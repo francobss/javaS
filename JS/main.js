@@ -8,7 +8,7 @@ for (let i = 0; i <= cantVueltas; i++){
     console.log("su numero es: " + numeroAPedir)
     x =  i * 2
     console.log("numero a sumarle: " + x)
-    suma = numeroAPedir + x
+    suma = numeroAPedir + x;
     console.log("resultado final: " + suma)
 }
 */
