@@ -26,11 +26,10 @@ function promediar(cant, div){
  // calculando edad promedio de personas ingresadas.
 
 let cantPersonas = Number(prompt('ingrese la cantidad de personas.'))
-let edadPersona;
 let acumEdad = 0;
 
 for(i = 0; i < cantPersonas; i++) {
-    edadPersona = Number(prompt('ingrese la edad de la persona.'));
+    let edadPersona = Number(prompt('ingrese la edad de la persona.'));
     acumEdad = acumEdad + edadPersona;
 }
 
