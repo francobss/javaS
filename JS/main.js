@@ -44,14 +44,12 @@ class persona{
     constructor(nombre, edad) {
         this.nombre = nombre;
         this.edad = edad;
-        
     }
 }
 class productos{
     constructor(ident, precio) {
         this.ident = ident;
-        this.precio = precio;
-        
+        this.precio = precio; 
     }
 }
 
