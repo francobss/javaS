@@ -74,6 +74,7 @@ while(entrada != 4){
                 const valor = prompt('Ingrese el valor.');
                 listaProductos.push(new productos(prod, valor))
             }
+            break;
         case 3:
             console.log(listaNombres)
             console.log(listaProductos)
